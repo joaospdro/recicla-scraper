@@ -1,0 +1,4 @@
+node_modules/
+pontos_de_coleta.txt
+.env*
+.DS_Store
