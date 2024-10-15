@@ -18,19 +18,16 @@ Atualmente, o scraping é executado localmente com **Puppeteer** para acessar o 
 
 Os dados de localização são extraídos do [localizador](https://sistema.gmclog.com.br/info/green?button=&search_city=&search_state=SP) e têm a seguinte estrutura:
 
-    ```
     {
     "lat": -23.52562441,
     "lng": -46.5699766,
     "title": "01 - ATACADÃO MATRIZ, AV. MORVAN DIAS DE FIGUEIREDO, 6169, VILA MARIA"
     }
-    ```
 
 #### Estrutura resultante da API Location IQ:
 
 Quando fazemos uma requisição de geocodificação reversa para a API LocationIQ, recebemos uma estrutura de dados com informações detalhadas sobre o local, como mostrado abaixo:
 
-    ```
     {
     "place_id": "152941129",
     "licence": "https://locationiq.com/attribution",
@@ -43,7 +40,6 @@ Quando fazemos uma requisição de geocodificação reversa para a API LocationI
     "type": "secondary",
     "importance": 0.30001
     }
-    ```
 
 #### Requisitos:
 
